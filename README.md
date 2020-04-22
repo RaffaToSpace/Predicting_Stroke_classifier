@@ -36,7 +36,7 @@ the model performs well with a F1 score of 0.93 and a value of area under the RO
 
 The relative importance of features in shown in the attached table. We can see how _Age_, _avg_glucose_level_, _bmi_, _ever_married_, _work_type_ make up roughly 85% of the relative importance. It should be noted that _smoking_status_ is not amongst the most important features, and actually the fact that the information is missing is more important than the value itself.
 
-<img src="https://github.com/RaffaToSpace/Predicting_Stroke/blob/master/images/feat_imp_table.png" alt="drawing" width="1000"/>
+<img src="https://github.com/RaffaToSpace/Predicting_Stroke/blob/master/images/feat_imp_table.PNG" width="300"/>
 
 ## Conclusions and final report
 I have built a simple random forest classifier for the provided dataset which reliably classifies patients that suffered a stroke. I preprocessed the data and optimised the model parameters in order to maximise performance, and the final model has a probability of 98% of distinguishing between the classes. The analysis allowed me to identify a subset of features that impact the most on the model, which means that an accurate model may be built with a lower number of features, 5 instead of 10 in this case. 
